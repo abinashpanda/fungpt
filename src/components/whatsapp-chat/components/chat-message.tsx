@@ -40,7 +40,7 @@ export default function ChatMessage({ role, message, senderName, avatar, classNa
           viewBox="0 0 20 20"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="-ml-1 mb-px h-4 w-4 self-end fill-teal-700"
+          className="-ml-1 mb-px h-4 w-4 self-end fill-teal-800"
         >
           <path d="M20 19.8907C9.66957 17.2844 3.42857 11.7213 0 0V18.1147C7.76691 19.9685 12.1539 20.1875 20 19.8907Z" />
         </svg>
