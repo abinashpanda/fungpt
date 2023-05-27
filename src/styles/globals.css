@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans text-content-primary antialiased;
+  }
+
+  button[disabled] {
+    @apply cursor-not-allowed opacity-80;
+  }
+}
+
+.ant-form-item-label {
+  @apply !pb-1;
+}
+
+.ant-form-item-label > label {
+  @apply !text-xs font-medium !text-content-secondary;
+}
+
+.ant-form-item-explain-error {
+  @apply !text-xs;
+}
+
+@layer components {
+  .skeleton {
+    @apply h-4 animate-pulse rounded bg-gray-200;
+  }
+}
